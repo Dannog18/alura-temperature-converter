@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Temperatura</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+<div class="container">
+  <h1 class="page-title">
+    Conversor de temperatura
+  </h1>
+  <p class="page-subtitle">
+    Descubra os valores em Celsius, Fahrenheit ou Kelvin
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+
+  <div class="temp-input">
+
+    <label for="from-temp">Insira o valor em:</label><br><br>
+    <select name="from-temp" id="from-temp">
+
+      <optgroup label="Temperatura">
+        <option value="celsius" id="celsius">Celsius </option>
+        <option value="fahrenheit" id="fahrenheit">Fahrenheit</option>
+        <option value="kelvin" id="kelvin">Kelvin</option>
+      </optgroup>
+    </select>
+  </div>
+
+  <div class="temp-input">
+    <label for="to-temp">Deseja converter em:</label><br><br>
+    <select name="to-temp" id="to-temp">
+
+      <optgroup label="Temperatura">
+        <option value="celsius" id="celsius">Celsius </option>
+        <option value="fahrenheit" id="fahrenheit">Fahrenheit</option>
+        <option value="kelvin" id="kelvin">Kelvin</option>
+      </optgroup>
+    </select>
+  </div>
+
+  <input type="number" id="valor" size="2" /><br>
+  <button type="submit" onclick="Converter()">Converter</button>
+  <h2 id="valorConvertido"></h2>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+
+</body>
+<script src="./script.js"> </script>
+</html>
