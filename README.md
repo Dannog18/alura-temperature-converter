@@ -1,5 +1,11 @@
-# Conversor de temperatura
+# Temperature Converter
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/Dansan17/pen/ZEadRBm](https://codepen.io/Dansan17/pen/ZEadRBm).
+A complete converter with 3 temperature options:
 
-Website: https://dannog18.github.io/alura-temperature-converter/
+- Celsius
+- Fahrenheit
+- Kelvin
+
+How it works: all you have to do is choose the temperature you want to use and the temperature you want to convert to. 
+
+Then type in the desired value, click on "Convert" and then the magic happens.
